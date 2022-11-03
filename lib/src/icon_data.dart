@@ -83,3 +83,12 @@ class IconDataThin extends IconData {
           fontPackage: 'font_awesome_flutter',
         );
 }
+
+class IconDataSharpSolid extends IconData {
+  const IconDataSharpSolid(int codePoint)
+      : super(
+          codePoint,
+          fontFamily: 'FontAwesomeSharpSolid',
+          fontPackage: 'font_awesome_flutter',
+        );
+}
