@@ -84,6 +84,33 @@ class IconDataThin extends IconData {
         );
 }
 
+class IconDataSharpThin extends IconData {
+  const IconDataSharpThin(int codePoint)
+      : super(
+          codePoint,
+          fontFamily: 'FontAwesomeSharpThin',
+          fontPackage: 'font_awesome_flutter',
+        );
+}
+
+class IconDataSharpLight extends IconData {
+  const IconDataSharpLight(int codePoint)
+      : super(
+          codePoint,
+          fontFamily: 'FontAwesomeSharpLight',
+          fontPackage: 'font_awesome_flutter',
+        );
+}
+
+class IconDataSharpRegular extends IconData {
+  const IconDataSharpRegular(int codePoint)
+      : super(
+          codePoint,
+          fontFamily: 'FontAwesomeSharpRegular',
+          fontPackage: 'font_awesome_flutter',
+        );
+}
+
 class IconDataSharpSolid extends IconData {
   const IconDataSharpSolid(int codePoint)
       : super(
